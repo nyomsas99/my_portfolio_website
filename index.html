@@ -23,43 +23,57 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg fixed-top"
-      style="background-color: #e3f2fd"
+      class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar"
     >
       <div class="container">
-        <a class="navbar-brand" href="#"><span>NyomSas</span> </a>
+        <a class="navbar-brand" href="#">Nyomsas</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#edu">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#galery">Galery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nyomsas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#edu">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galery">Galery</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
