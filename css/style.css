@@ -10,7 +10,7 @@ section {
 }
 body {
   background-color: #fff;
-  height: 1000vh;
+  /* height: 1000vh; */
 }
 .jumbo {
   background-color: #eee;

@@ -12,9 +12,3 @@ floating_btn.addEventListener("click", () => {
 close_btn.addEventListener("click", () => {
   social_panel_container.classList.remove("visible");
 });
-
-const abt = document.querySelector(".abt");
-
-abt.addEventListener("mouseenter", () => {
-  abt.style.backgroundColor = "rgb(100, 50, 120)";
-});
