@@ -2,6 +2,10 @@
   font-family: "Lobster";
   font-size: 2rem;
 }
+.nav-link {
+  color: #fff;
+}
+
 h2 .display-4 {
   font-size: 2rem;
 }
@@ -10,7 +14,7 @@ section {
 }
 body {
   background-color: #fff;
-  /* height: 1000vh; */
+  height: 1000vh;
 }
 .jumbo {
   background-color: #eee;
@@ -278,7 +282,7 @@ body {
   text-decoration: none;
 }
 
-/* @media screen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
   .social-panel-container.visible {
     transform: translateX(0px);
   }
@@ -286,19 +290,14 @@ body {
   .floating-btn {
     right: 10px;
   }
-} */
+}
 
 /* laptop */
 @media (max-width: 992px) {
   html {
     font-size: 75%;
   }
-  .simply-countdown > .simply-section {
-    padding: 70px;
-  }
-  .home .heart {
-    display: none;
-  }
+
   .timeline::after {
     left: 65px;
   }
