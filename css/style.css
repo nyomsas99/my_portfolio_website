@@ -22,6 +22,7 @@ body {
   background-image: url(../img/gb2.jpg);
   background-size: cover;
   background-position: center;
+  width: 100%;
   color: azure;
   background-repeat: no-repeat;
 }
@@ -282,7 +283,7 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 300px) {
   .social-panel-container.visible {
     transform: translateX(0px);
   }
@@ -290,7 +291,7 @@ body {
   .floating-btn {
     right: 10px;
   }
-}
+} */
 
 /* laptop */
 @media (max-width: 992px) {
@@ -348,8 +349,8 @@ body {
 /* mobile phone */
 @media (max-width: 576px) {
   .timeline li .timeline-img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
   .timeline li .timeline-panel {
     width: 60%;
