@@ -2,9 +2,6 @@
   font-family: "Lobster";
   font-size: 2rem;
 }
-.nav-link {
-  color: #fff;
-}
 
 h2 .display-4 {
   font-size: 2rem;
@@ -15,6 +12,7 @@ section {
 body {
   background-color: #fff;
   width: 100%;
+  overflow-x: hidden;
 }
 .jumbo {
   background-color: #eee;
@@ -361,5 +359,17 @@ body {
   }
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+  div {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .navabar {
+    overflow-x: hidden;
+  }
+  .navbar-brand {
+    overflow: hidden;
   }
 }
